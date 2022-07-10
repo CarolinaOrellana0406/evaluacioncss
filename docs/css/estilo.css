@@ -1,0 +1,148 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body{
+background-color: rgb(123, 165, 165);
+border: 5px solid;
+
+}
+main{
+    background-color: cadetblue;
+    border: 20px 20px;
+}
+ section h2{
+    text-align: center;
+    margin: 30px;
+    border: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: burlywood;
+    font-family: 'Times New Roman', Times, serif;
+}
+.caja{
+    background-color: blanchedalmond;
+    width: 20%;
+    box-sizing: 20px;
+}
+.img{
+    text-align: center;
+    display: block;
+    padding: 20px;
+    margin: 15px;
+    border-style: double;
+    width: 80%;
+}
+.parrafo{
+    text-align: center;
+    background-color: aliceblue;
+    border-width:20px ;
+    border-style:double ;
+    border-color:goldenrod ;
+    margin: 20px;
+    font-family: cursive;
+}
+table{
+    width: 50%;
+    margin: 0 auto;
+    background-color: aliceblue;
+    border: solid 1px black;
+    border-collapse:collapse ;
+    border-spacing: 0 ;
+    margin-top: 20pxs;
+    box-shadow: 3px 3px 4px lightblue;
+}
+table caption{
+    background-color: yellowgreen;
+    color: aliceblue;
+    font-size: 25px;
+    padding: 20px;
+   
+}
+table thead{
+    background-color: black;
+    color: azure;
+    font-size: 23px;
+    padding: 20px;
+}
+table tr, table th{
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid gainsboro;
+}
+table tr:nth-child(even){
+    background-color: rgb(141, 121, 121);
+}
+table td:nth-child(6){
+    text-align: center;
+
+}
+table img{
+    text-align: center;
+    border-style: groove;
+    width: 50%;
+    border-color: mediumorchid;
+ 
+}
+a{
+    text-align: justify;
+    width: 50%;
+    font-family: fantasy;
+    background-color: rgb(127, 192, 209);
+}
+h4{
+    background-color: rgb(108, 196, 196);
+    color: azure;
+}
+.contenedor{
+    background-color: rgb(192, 177, 157);
+    width: 60%;
+    margin: 10px auto;
+    padding: 15px;
+    box-shadow: 10px 10px rgb(116, 113, 113);
+
+}
+button{
+    display: block;
+    width: 70%;
+    background-color: rgb(228, 128, 218);
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 15PX;
+    font-size: 20PX;
+    margin-top: 20px;
+}
+    
+option{
+    text-align: center;
+    background-color: bisque;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+span{
+    text-align: center;
+    background-color: rgb(252, 211, 133);
+}
+input{
+    font-family: cursive;
+}
+ul{
+    text-align: justify;
+    background-color: antiquewhite;
+}
+.lista{
+    padding: 50px;
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.lista2{
+list-style: none;
+font-size: x-large;
+}
+ol{
+    background-color: khaki;
+    font-family: sans-serif;
+    width: 80%;
+}
